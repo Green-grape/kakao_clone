@@ -1,0 +1,24 @@
+{
+  "name": "kakaoclone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "prettier": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fm": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Green-grape/kakao_clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Green-grape/kakao_clone/issues"
+  },
+  "homepage": "https://github.com/Green-grape/kakao_clone#readme"
+}

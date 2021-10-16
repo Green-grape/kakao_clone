@@ -1,14 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="./css/index.css" rel="stylesheet" />
+	<title>Welcome to KakaoTalk</title>
 </head>
+
 <body>
-  <div>
-    Hello!
-  </div>
-  
+	<div class="status-bar">
+		<div class="status-bar__column">
+			<span>No service</span>
+			<i class="fa fa-wifi" aria-hidden="true"></i>
+		</div>
+		<div class="status-bar__column">
+			<span>18:43</span>
+		</div>
+		<div class="status-bar__column">
+			<span>11%</span>
+			<i class="fa fa-battery-quarter" aria-hidden="true"></i>
+			<i class="fa fa-bolt" aria-hidden="true"></i>
+		</div>
+	</div>
+	<header class="welcome-header">
+		<h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+		<p class="welcome-header__content">
+			If you have a kakao Account, log in with your email or phone number.
+		</p>
+	</header>
+	<form class="welcome-login-form">
+		<input type="text" placeholder="Email or phone number" />
+		<input type="password" placeholder="Password" name="" id=""/>
+		<input type="submit" value="Log In" c/>	
+<input type="submit" value="Sign Up"/>
+		<a href="#">Find kakoa Acccount or Password</a>
+	</form>
+	<script src="https://kit.fontawesome.com/03ab144667.js" crossorigin="anonymous"></script>
 </body>
 </html>
